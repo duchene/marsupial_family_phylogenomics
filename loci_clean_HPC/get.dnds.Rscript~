@@ -1,0 +1,12 @@
+library(phangorn)
+library(seqinr)
+
+loci <- grep("*phy", dir(), value = T)
+datkaks <- vector()
+
+for(i in 1:length(loci)){
+      dat <- read.dna(loci[i])
+      dat <- as.alignment(dat)
+      datk <- kaks(dat)
+      datkaks[i] <- mean(as.matrix(datk[[1]])[lower.tri(as.matrix(datk[[1]]))]) / mean(as.matrix(datk[[2]])[upper.tri(as.matrix(datk[[2]]))])
+}

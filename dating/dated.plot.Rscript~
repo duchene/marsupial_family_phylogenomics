@@ -1,0 +1,14 @@
+library(strap)
+library(phangorn)
+load("astraltrees.Rdata")
+
+tr <- read.tree("MCMCtree_12part_r2/dated.tre")
+tr$edge.length <- tr$edge.length * 10
+tr$root.time <- 76.03331
+tr$tip.label <- namescode[match(tr$tip.label, namescode[,2]),1]
+
+pdf("~/Dropbox/Research/Marsupial_phylogenetics/Fig4.pdf", height = 15, width = 10)
+
+geoscalePhylo(ladderize(tr), label.offset=0, cex.age = 1, cex.ts = 1, cex.tip=1, units = c("Period", "Epoch"))
+
+dev.off()

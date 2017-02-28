@@ -1,0 +1,39 @@
+library(phangorn)
+source("../functions/make.taxa.unique.R")
+
+
+concatenate <- function(loci.names, taxa, fixnames = T){
+
+al <- matrix("a", length(taxa))
+rownames(al) <- taxa
+
+for(i in 1:length(loci.names)){
+      dat <- read.dna(loci.names[i])
+      rownames(dat) <- gsub(" _", "_", rownames(dat))
+      rownames(dat) <- gsub("_ ", "_", rownames(dat))
+      rownames(dat) <- gsub(" ", "_", rownames(dat))
+      dat <- make.taxa.unique(dat)
+      dat <- dat[intersect(rownames(al), rownames(dat)), ]
+      if(nrow(dat) < nrow(al)){
+      	    missingtaxa <- setdiff(rownames(al), rownames(dat))
+	    newmat <- matrix("-", length(missingtaxa), ncol(dat))
+	    rownames(newmat) <- missingtaxa
+      	    dat <- rbind(as.character(dat), newmat)
+	    rownames(dat)[(nrow(dat) - length(missingtaxa) + 1):nrow(dat)] <- missingtaxa
+      }
+      dat <- dat[rownames(al), ]
+      if(class(dat) == "DNAbin") dat <- as.character(dat)
+      al <- cbind(al, dat)
+      print(class(al))
+      print(dim(al))
+      print(al[(nrow(al)-10):nrow(al), (ncol(al)-10):ncol(al)])
+}
+print(dim(al))
+if(class(al) == "DNAbin"){
+      al <- al[, 2:ncol(al)]
+} else {
+      al <- as.DNAbin(al[, 2:ncol(al)])
+}
+
+return(al)
+}

@@ -1,0 +1,7 @@
+try(system("mcmctree dating_in.ctl"))
+system("mv out.BV in.BV")
+dating <- readLines("dating_in.ctl")
+dating[which(dating == grep("usedata", dating, value = T))] <- "usedata = 2*"
+system("rm dating_in.ctl")
+writeLines(dating, con = "dating_in.ctl")
+try(system("mcmctree dating_in.ctl"))

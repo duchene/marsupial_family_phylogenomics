@@ -1,0 +1,6 @@
+Loading required package: ape
+Warning message:
+package ‘ape’ was built under R version 3.2.5 
+Error in FUN(X[[i]], ...) : one tree has different tip labels
+Calls: topoclustMDS ... .dist.topo -> bitsplits -> .compressTipLabel -> lapply -> FUN
+Execution halted

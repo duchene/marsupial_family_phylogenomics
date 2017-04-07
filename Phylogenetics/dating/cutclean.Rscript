@@ -1,0 +1,17 @@
+library(phangorn)
+source("../functions/make.taxa.unique.R")
+
+loci.names <- grep("[.]gt[.]phy", dir("../loci_clean_HPC/"), value = T)
+setwd("../dating/loci")
+
+for(i in 1:length(loci.names)){
+      dat <- read.dna(paste0("../../loci_clean_HPC/", loci.names[i]))
+      rownames(dat) <- gsub(" _", "_", rownames(dat))
+      rownames(dat) <- gsub("_ ", "_", rownames(dat))
+      rownames(dat) <- gsub(" ", "_", rownames(dat))
+      dat <- make.taxa.unique(dat, remove = T)
+      dat <- dat[-grep("s_Tas", rownames(dat)),]
+      dat <- dat[-grep("_south", rownames(dat)),]
+      dat <- dat[-grep("_Sydney", rownames(dat)),]
+      if(nrow(dat) == 45) write.dna(dat, file = loci.names[i])
+}

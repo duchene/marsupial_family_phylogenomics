@@ -1,0 +1,27 @@
+fols <- grep("[.]ML[.]folder", dir(), value = T)
+dnds <- vector()
+
+
+for(i in 1:length(fols)){
+      
+      setwd(fols[i])
+      dndat <- readLines("2ML.dN")
+      if(length(dndat) < 2){
+      		       setwd("..")
+		       next
+      }
+      dsdat <- readLines("2ML.dS")
+      dsdat <- gsub(" +", ",", dsdat[3:length(dsdat)])
+      dndat <- gsub(" +", ",", dndat[3:length(dndat)])
+      for(j in 1:length(dndat)) dndat[j] <- paste0(dndat[j], paste0(rep(",", length(dndat)-j), collapse = ""))
+      for(j in 1:length(dsdat)) dsdat[j] <- paste0(dsdat[j], paste0(rep(",", length(dsdat)-j), collapse = ""))
+      writeLines(dndat, con = "2ML.dN.2")
+      writeLines(dsdat, con = "2ML.dS.2")
+      dndat <- as.matrix(read.delim("2ML.dN.2", sep = ",", header = F, row.names = 1))
+      dsdat <- as.matrix(read.delim("2ML.dS.2", sep = ",", header = F, row.names = 1))
+      dnds[i] <- mean(dndat, na.rm = T) / mean(dsdat, na.rm = T)
+      setwd("..")
+                  
+}
+
+names(dnds) <- gsub(".NT.TNR.trim.gt.ML.folder", "", fols)

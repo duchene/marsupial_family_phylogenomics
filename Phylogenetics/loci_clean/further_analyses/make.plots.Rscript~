@@ -1,0 +1,31 @@
+load("all.results.Rdata")
+load("chromosomes.Rdata")
+load("clustering.Rdata")
+
+brPal <- colorRampPalette(c('blue', 'green', 'yellow','red'))
+rbPal <- colorRampPalette(c('red', 'yellow', 'green','blue'))
+segsitescols <- brPal(10)[as.numeric(cut(allres[,9][which(allres[, 9] < 1500)],breaks = 10))]
+supcols2 <- brPal(10)[as.numeric(cut(allres[,4],breaks = 10))]
+chromosrescaff <- factor(chromosres$scaff, levels = c("1", "2", "3", "4", "5", "6", "7", "8", "X", "Un"))
+chicolsbelow20 <- rbPal(10)[as.numeric(cut(allres[,2][which(allres[,2] < 20)],breaks = 10))]
+trlenbelow5cols <- brPal(10)[as.numeric(cut(allres[,6][which(allres[, 6] < 5)],breaks = 10))]
+dndscols <- brPal(10)[as.numeric(cut(allres[,12][which(allres[, 12] < 0.5)],breaks = 10))]
+
+pdf("~/Dropbox/Research/Marsupial_Phylogenetics/Fig3.1.pdf", height = 9, width = 9, useDingbats = F)
+par(mfrow = c(3, 3))
+plot(mdsres$points, pch = 20, col = allclust$clustering, xlim = c(-22, 38), ylim = c(-30, 44))
+legend(-20, 40, legend = c("Cluster 1", "Cluster 2"), col = c(1, 2), pch = 20)
+frame()
+frame()
+plot(mdsres$points[which(allres[, 2] >= 20 | is.na(allres[, 2])),], pch = 20, col = "red", xlim = c(-22, 38), ylim = c(-30, 44))
+points(mdsres$points[which(allres[, 2] < 20),], pch = 20, col = chicolsbelow20)
+plot(mdsres$points[which(allres[, 6] < 5),], pch = 20, col = trlenbelow5cols, xlim = c(-22, 38), ylim = c(-30, 44))
+points(mdsres$points[which(allres[, 6] >= 5),], pch = 20, col = "blue")
+plot(mdsres$points, pch = 20, col = supcols2, xlim = c(-22, 38), ylim = c(-30, 44))
+plot(mdsres$points[which(allres[, 12] < 0.5),], pch = 20, col = dndscols, xlim = c(-22, 38), ylim = c(-30, 44))
+points(mdsres$points[which(allres[, 12] >= 0.5 | is.na(allres[, 12])),], pch = 20, col = "red")
+plot(mdsres$points[which(allres[, 9] < 1500),], pch = 20, col = segsitescols, xlim = c(-22, 38), ylim = c(-30, 44))
+points(mdsres$points[which(allres[, 9] >= 1500),], pch = 20, col = "blue")
+plot(mdsres$points, pch = 20, col = chromosrescaff, xlim = c(-22, 38), ylim = c(-30, 44))
+legend(-20, 40, legend = as.character(levels(chromosrescaff)), col = 1:9, pch = 20)
+dev.off()

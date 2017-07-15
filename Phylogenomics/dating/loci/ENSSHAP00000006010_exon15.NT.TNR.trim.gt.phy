@@ -1,46 +1,414 @@
 45 534
-Peramelidae_Isoodon_obesulus                  ntatcaaaagagctttctgaaatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatct---aacactcaaggtcccagtgtgaccactgaacctctaacttcttctctggacaaacttgggcctgacacaccaaagcaagcctttacacctatagatcgaccctgtgggtgtgccaatgaaagccctgctggtaacagggaaaaccagacttcattggaaacaaacatcttcacacccagccctaaaattccatctcagagaaaagtaggttttggaagtggacaacctcccccctatgatcacctttttgagatggcattgccaaagactgcttaccattttgttagcaagaagactgaagagctcttaaagaaagtgaaaggaaatatagaggaagattatatgccatccacttccccagtggaggtactggataggctaatacaacagggagcagatgtgcat
-Burramyidae_Burramys_parvus                   ------------------gagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaatatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagcggacaatctcccccatatgatcatctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagagctgttaaaaaaggtgaaaggaaacacagaggaagattatatgccttctacttccccagtggaggtgctggataggctgatacaacagggagcagatgcacat
-Thylacomyidae_Macrotis_lagotis                ---------gagctttctgagatcactacagcagatactgagcctgtggtgcctagaggaggatttgactctcctttctatcgagacagtctctcatgttctcagagaaagtcccattcagcatct---aacactcaaggtcccagtgtgagcactgaacctctaacttcttctctggacaaacttgggcctgacacaccaaagcaagcctttacacctatagatcgaccctgtgggtgtgccaacgaaagccctgctagtaacagggaaaaccagacgtcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacagcctcccccctatgatcacctttttgagatggcattgccaaagactgcttaccattttgtcagcaaaaagactgaagagctcttaaagaaagtgaaaggaaatatagaggaagattatatgccgtccacttccccagtggaggtactggataggctaatacnacagggagcagatgtgcat
-Notoryctidae_Notoryctes_typhlops              atatcaaaggagctttctgagatcactacagcagatactgaacctgttgtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatcttctcagaggaagtccctttcaacatcttctaacactcaaggtcccagtgtgagcgctgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcgaccctgggggtgtgccaatgaaagccctgctggtaacagggaaaaccagacttcactggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtagattttggaagtggacagcctccaccatatgattacctttttgagatggctctgccaaagactgcttaccattttgtcagcaggaagactgaagagctattaaataaagtgaaagcaaacacagaggaagattatatgccctccacttccccagtggaggtactggataggctgata---------------------
-Vombatidae_Lasiorhinus_latifrons              ntatcaaaggagctttctgagatcactacagcagatgctgagcctgtggtgcctcgaggaggatttgactcccctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctgtggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccctgtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagcggacaatctcccccgtatgatcacctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagagctgttaaaaaaagtaaaaggaaacacagaggaagattatatgccctctacttccccagtggaggtactggataggctgatacaacagggagcagatgcacat
-Potoroidae_Bettongia_penicillata              atatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatcttctaacactcaaggtcccagtgtgagcaccgaacctttaacttcctccctggacaagcttgggcctgacacatccaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcattggagacaaacatctttacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacaatctcccccatatgatcacctttttgagatggcactgcccaagactgcttaccattttgttagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttccccagtggaggtactggataggctaatacaacagggagcagatgcacat
-Potoroidae_Bettongia_lesueur                  atatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatcttctaacactcaaggtcccagtgtgagcaccgaacctttaacttcctccctggacaagcttgggcctgacacatccaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcattggagacaaacatctttacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacaatctcccccatatgatcacctttttgagatggcactgcccaagactgcttaccattttgttagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttccccagtggaggtactggataggctaatacaacagggagcagatgcacat
-Dasyuridae_Dasyurus_maculatus                 atatcaaaggaactttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactcgcctttctatcgagacagtctcccatgttctcagaggaagtcccattcaacatcttctaacactcaaggtcctagtgtgagcactgaacttctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccctgtgggtgtgacaatgaaagccctgctggtaacagggaaagccagacttcattggagacaaacatcttaacacctagccctaaaattccatctcag---aaagtaggttttggaagtggacagcctcccccatatgatcatctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagacagaagagctattaaagaaagtaaaaggaaatacagaggaagattatatgccctccacttccccagtggaggtgctggataggctgattcaacagggagcagatgcacat
-Phalangeridae_Trichosurus_vulpecula           ntancaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcctggtgggtatgctagtgaaagccctgctggtaacagggaaaaccagacttctttggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacaatctcccccatatgatcacctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttctccagtggaggtactggataggctgatacaacagggagcagatgcacat
-Phalangeridae_Spilocuscus_maculatus           ntatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccgtgttctcagagaaagtcccattcagcatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttctttggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacgatctcccccatatgatcacctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttctccagtggaggtactggataggctgatacaacagggagcagatgcacat
-Potoroidae_Aepyprymnus_rufescens              ntatcaaaggagctttctgagatcactacagcagataccgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcagcatcttctaacactcaaggttccagtgtgagcaccgaacctttaacttcctccctggacaagcttgggcctgacacacccaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcactggagacaaacatctttacacctagccctaaaattccatctcagagaaaagtaggttttggaagtgaacaatctcccccatatgatcacctttttgagatggcactgcccaagactgcttaccattttgttagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttccccagtggaggtactggataggctaatacaacagggagcagatgcacat
-Pseudochiridae_Pseudocheirus_peregrinus_north atatcgaaggaactttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagatagcctcccatgttctcagagaaagtcccatttaacatcttctaacactcaaggtcccagtgtaagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaatcagacttcattggaaacaaacatcttcacacctagccctaaaattccatctcagagaaaagaaggttttggaagtggacaatctcccccatatgatcacctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagaactattaaaaaaagtaaaaggaaatacagaggaagattatatgccctctacttccccagtggaagtactggataggctgatacaacagggagcagatgna---
-Peramelidae_Perameles_nasuta                  ntatcaaaagagctttctgaaatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatct---aacactcaaggtcccagtgtgaccactgaatctctaacttcttctctggacaaacttgggcctgacacaccaaagcaagcctttacacctatagatcgaccctgtgggtgtgccaatgaaagccctgctggtaacagggaaaaccagacttcattggaaacaaacatcttcacacccagccctaaaattccatctcagagaaaagtaggttttggaagtggacaacctcccccctatgatcacctttttgagatggcattgccaaagactgcttaccattttgttagcaaaaagactgaagagctcttaaagaaagtgaaaggaaatatagaggaagattatatgccatccacttccccagtggaggtactggataggctaatacaacagggagcagatgtgcat
-Myrmecobiidae_Myrmecobius_fasciatus           atatcaaaggagctgtctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactcgcctttctatcgagacagtctcccatgttctcagaggaagtcccattcaacatcttctaacactcaagggcctagtgtgaacactgaacttctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccctgtaggtgtggcaatgaaagccctgctggtaacagggaaaaccagacttcattggagacaaacatcttgacgcctagccctaaaattcct---cagagaaaagtaggttttggaagtggacagcctcccccatatgatcatctttttgagatggcactgcccaagactgcttaccattttgtcagcaagaagtctgaagaactattaaagaaagtaaaaggaaatacagaggaagattatatgccctccacttccccagtggaagtactggataggctgattcagcagggagcagatgcacat
-Phalangeridae_Strigocuscus_pelengensis        ntatcaaaggagctttctgngannnntacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccgtgttctcagagaaagtcccattcagcatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttctttggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacaatctcccccatatgatcacctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttctccagtggaggtactggataggctgatacaacagggagcagatgnn---
-Dasyuridae_Phascogale_tapoatafa               atatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactcgcctttttatcgagatagtctcccatgttctcagaggaaatcccattcaacatcttctaacactcaaggtcctagtgtgagcactgaacttctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccctgtgggtgtgacaatgaaagccctgctggtaacagggaaagccagacttcattagagacaaacatcttaacacctagccctaaaattccatctcag---aaagtaggttttggaagtggacagcctcccccatacgatcatctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagacagaagagctattaaagaaaataaaaggaaatacagaggaagattatatgccctccacttccccagtggaggtactggataggttgattcaacagggagcagatgcacan
-Vombatidae_Vombatus_ursinus                   atatcaaaggagctttctgagatcaccacagcagatgctgagcctgtggtgcctcgaggaggatttgactcccctttctatcgagacagtctcccatgttctcagagaaagtcccattcgacatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctgtggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccctgtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagcggacaatctcccccgtatgatcacctttttgaggtggcactgccaaagactgcttaccattttgtcagcaagaagactgaagagctgttaaaaaaagtaaaaggaaacacagaggaagattatatgccctccacttccccagtggaggtactggataggctgatacaacagggagcagatgcacat
-Dasyuridae_Sminthopsis_macroura               atatcaaaggagctttctgagatcactacaacagatactgagcctgtggtgcctcgaggaggatttgactcacctttctatcgagacagtctctcatgttctcagaggaagtcccattcaacatcttctaacactcaaggtcctagtgttagcactgaacttctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacctatagatcggccctgtgggtgtgacaatgaaagccctgctggtaacagggaaagccagacttcattggagacaaacatctttacacctagccctaaaattccatctcagagaaaagtagattttggaagtggacagcctcccccatatgatcatctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagacagaagagctattaaagaaaataaaaggaaatacagaggaagattatatgccctccacttccccagtggaggtactagataggctgattcaacagggagcagatgcacat
-Phalangeridae_Phalanger_orientalis            atatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccgtgttctcagagaaagtcccattcagcatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttctttggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacaatctcccccatatgatcaccttttcgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttctccagtggaggtactggataggctgatacaacagggagcggatgcacat
-Acrobatidae_Acrobates_pygmaeus                atatcaaaggagctttctgagatcactacagcagatgctgagcccgtggtgcctcgaggaggatttgactctcctttctatcaagacagtcccccatgttctcagagaaattcccattcaacatcttgtaacactcaaggtcccagtgtaagcactgaacctctaacttcctctctggacaagcctgggcctgacacaccaaagcaagcctttacacccatagattggccaagtgggtgtgccagtgaaagccctgccagtaacagggaaaaccagacttcattggagacaaacattttcacacctagccctaaaattccatctcagagaaaagaaggttttggaagtggacaatctcccccatatgatcacctttttgagttggcgctgccaaaaactgcttaccattttgtcagcaagaagactgaagagctattnaaaaaagtgaaaggaaacatagaggaagattatatgccctctacttccccagtggag---------------------------------------
-Potoroidae_Potorous_tridactylus_north         ntatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatcttctaacacccaaggtcccagtgtgagcaccgaacctttaacttcctccctggacaagcttgggcctgacgcacccaagcaagcctttacacccattgatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttctttggagacaaacatctttacacctagccctaaaattccatctcagagaaaagtagtttttggaagtggacaatctcccccatatgatcacctttttgagatggcactgcctaagactgcttaccattttgttagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatcccctctacttccccagtggaggtactggataggctaatacaacagggagcagatgcacat
-Dasyuridae_Phascogale_calura                  ntatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactcgcctttctatcgagatagtctcccatgttctcagaggaaatcccattcaacatcttctaacactcaaggtcctagtgtgagcactgaacttctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccctgtgggtgtgacagtgaaagccctgctggtaacagggaaagccagacttcattggagacaaacatcttaacacccagccctaaaattccatctcag---aaagtaggttttggaagtggacagcctcccccatatgatcatctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagacagaagagctattaaagaaagtaaaaggaaatacagaggaagattatatgccctccacttccccagtggaggtactggataggttgattcaacagggagcagatgcacat
-Dasyuridae_Sarcophilus_harrisii               atatcaaaggaactttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagaggaagtcccattcaacatcttctaacactcaaggtcctagtgtgagcactgaacttctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccttgtgggtgtgacaatgaaagccctgctggtaacagggaaagccagacttcattggagacaaacatcttaacgcctagccctaaaattccatctcag---aaagtaggttttggaagtggacaacctcccccatatgatcatctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagacagaagagctattaaagaaagtaaaaggaaatacagaggaagattatatgccctccacttccccagtggaggtgctggataggctgattcaacagggagcagatgcacat
-Dasyuridae_Planigale_tenuirostris             ---------gagctttctgagancactacagcagatactgagcctgtggtgcctcgaggaggatttgactcgcctttctatcgagacagtttcccatgttctcagaggaagtcccattcaacatcttctaacactcaaggtcctagtgtgagcactgaacttctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccctgtgggtgtgacaatgaaagccctgctggtaacagggaaagccagacttcattggagacaaacatctttacgcctagccctaaaattccatctcagagaaaagtaggttttggaagtggacagcctcccccatatgatcatctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagacagaagagctattaaagaaagtaaaaggaaatacagaggaagattatatgccctccacttccncagtggaggnactggataggctaattcaacaggnngcn---------
-Peramelidae_Echymipera_kalubu                 ntatcaaaggagctttctgaaatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacntct---aacgctcaaggtcccagtgtgagcactgaacctctaacttcttctctggacaaacttgggcctgacacaccaaagcaagcctttacacctatagatcgaccctgtgggtgtgccaatgaaagccctgctggtaacagggaaaaccagacttcattggaaacaaacatctttacacccagccctaaaattccatctcaaagaaaagtaggttttggaagtggacaanntcccccctatgatcacctttttgagatggcattgccaaagactgcttaccattttgttagcaagaagactgaagagctcttaaagaaagtgaaaggaaatatagaggaagattatatgccatccacttccccagtggaggtactggataggctaatacaacagggagcagatgtacat
-Macropodidae_Dorcopsulus_vanheurni            atatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccgtgttctcaaagaaagtcccattcaacatcttctaacactcaaggtcccagtgtgagcactgaacctttaacttcctccctggacaagcttgggcctgacacaccaaagcaagtctttacacccatagatcggcccggtgggtgtgccagtgaaatccctgctggtaacagggaaaaccagacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagtgggcaatctcccccatatgatcacctttttgagatggcactgccaaagactgcttaccattttgttagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttccccagtggaggtactggataggctaatacaacagggagcagatgcacat
-Pseudochiridae_Pseudochirulus_forbesi         anatcaaaggaactttctgagatcactacagcagatgctgagcctgtggtgcctcgaggaggatttgactcgcctttctatcgagatagtctcccatgttctcagagaaagtcccatgtaacatcttctaacactcaaggtcccagtgtaagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaatcaaacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagaaggttttggaagtggacaatctcccccatatgatcacctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagaactattaaaaaaagtaaaaggaaacacagaggaagattatatgccctctacttcccctgtggaagtactggataggctgatacaacagggagcagatgcacat
-Didelphidae_Didelphis_virginiana              ---ncaaangaactttctgagatcactacagcagacactgagcctatggtacctcgaggaggatttgattctcctttctatcaagacagtctcccatgttctcagaggaagtcccattcaacatcttctaacactcaagggcccagtgtgagtgct------------tcctctttggacaagcttgggcctgacacaccaaagcaagcctttactcccatagatcggccctgtgggtgtgccgatgaaagccctgctggtaacagggaaaaccagacttcattggacacaaacatcctcacacctagccctaaaattccatctcaaagaaaagtaggatttggaagtgggcaaccttccccatatgatcacctctttgagatggcactgccaaagactgcttaccattttgtcagcaagaaaactgaagagctattaaagaaagtaaaaggaaacacagaggaagattatatgccctctacttccccagtggaagtactggataggctgatacaacagggagcagatgcacat
-Marmosidae_Monodelphis_domestica              ntatcaaaggaactttctgagatcactacagcagacactgagcctgtggtacctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagaggaagtcccattcaacatcttctaacactcaagggcccagtgtgagtgct------------tcctctttggacaagcttgggcctgacacaccaaagcaagcctttactcccatagatcggccctgtgggtgtgccgatgaaagccctgctggtaacagggaaaaccagacttcattggacacaaacatcctcacacctagccctaaaattccgtctcagagaaaagtagggtttggaagtggacagccttccccatatgatcacctctttgagatggcactgccaaagactgcttaccattttgtcagcaagaaaactgaagagcttttaaagaaaataaaaggaaacacagaggaagattatatgccttctacttccccagtggaagtactggataggctgatacagcagggagcagatgcacat
-Dasyuridae_Antechinus_stuartii                atatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactcgcctttctatcgagatagtctcccatgttctcagaagaagtcccattcaacatcttctaacactcaaggtcctagtgtgagcactgaacttctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagaacggccctgtgggtgtgacaatgaaagccctgctggtaacagggaaagccagacttcattagagacaaacatcttaacgcctagccctaaaattccatctcag---aaagtaggttttggacgtggacagcctcccccatatgatcatctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagacagaagagctattaaagaaagtaaaaggaaatacagaggaagattatatgccctccacttccccagtggaggtactggataggttgattcaacagggagcagatgcacat
-Macropodidae_Onychogalea_fraenata             ntatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcaaagaaagtcccattcaacatcttctaacactcaaggtcccagtgtgagcactgaacctttaacttcctccctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacaatctcccccatatgatcacctttttgagatggcactgccaaagactgcttaccattttgttagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttccccagtggaggtactggataggctaatacagcagggagcagatgcacat
-Hypsiprymnodontidae_Hypsiprymnodon_moschatus  atatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggagggtttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatcttctaacactcaaggtcccagtgtgagcactgaacctttaacttcctctctggacaagcttgggcccaacacgccaaagcaagcctttacacccatagatcggcctggtgggtgtgccagtgaaagccctgccggtaacagggaaaaccagactttgttggagacaaacatcttcacacctagcccgaaaattccatctcagagaaaagtaggttttggaagtggacaatctcccccatatgatcacctttttgagatggcgctgccaaagactgcttaccattttgttagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatgtgccctcaacttccccaatggaggtactggatcggctcatacaacagggagcagatgcacat
-Microbiotheriidae_Dromiciops_gliroides        ---nnanaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggtggatttgactctcctttctatagagacagtctctcatgttctcagaggaagtcccaatcaacatcttctaacactcaaggtcccagtgtgagcactgaacctccaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccctgtgggtgtgccaatgaaagccctgctggtaacagggaaaaccggacttcactggagacaaacatcttcacacctagtcctaaaataccatctcagagaaaagtaggttttggaagtggacaacctcccccgtacgatcacctttttgagatggcactgccaaagactgcttaccattttgtcagtaagaagactgaagagctgttaaagaaagtgaaaggaaacacagaggaagattatatgccctccacctccccagtggaagtactagatagactgatn---------------------
-Pseudochiridae_Petauroides_volans             ---------naactttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagatagtctcccatgttctcagagaaagtcccatttaacatcttctaacactcaaggtctcagtgtgagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagaaggttttagaagtggacaatctcccccatatgatcacctttttgaaatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagaactattaaaaaaagtaaaaggaaacacagaggaagattatatgccctctacttccccagtggaagtactggataggctgatacaacagggagcagatgca---
-Macropodidae_Wallabia_bicolor                 atatcaaaggagctttctgaaatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccgtgttctcaaagaaagtcccattcaacatcttctaacactcaaggtcccagtgtgagcactgaacctttaacttcctccctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacaatctcccccatatgatcacctttttgaaatggcactgccaaagactgcttaccattttgttagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttccccagtggaggtactagataggctaatacaacagggagcagatgcacat
-Pseudochiridae_Pseudocheirus_occidentalis     ntatcgaaggaactttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactcccctttctatcgagatagcctcccatgttctcagagaaagtcccatttaacatcttctaacactcaaggtcccagtgtaagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccggtgaaagccctgctggtaacagggaaaatcagacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagaaggttttggaagtggacaatctcccccatatgatcacctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaaganctattaaaaaaagtnaaaggaaatacagaggaagattatatgccctctacttccccagtggaagtactggataggctgatacaacagggagcagatgcacat
-Tarsipedidae_Tarsipes_rostratus               nnatcaaaggaactttctgagatcactacagcagatactgagccagtagtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcagtatcttctaacactcaaggtcccagtgtgaacactgaacctctaacttcgtctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcgccccggtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcattggacacaaacattttcacacccagccctaaaattccatctcagagaaaagaaggttttggaaatgaacaatctcccccatatgatcacctttttgaaatggcactgccaaagactgcttaccattttgttagcaagaagactgaagaactattaaaaaaagtgaaaggaagcacagaggaagattatatgccctctacttcccctgtagaggtactggataggctgatacaacagggagcagatgcacat
-Acrobatidae_Distoechurus_pennatus             atatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatcctctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctttggacaagcttggacctgacacaccaaagcaagcctttacacccatcgatcggcctggtgggtgtaccaatgaaagccctgccggtaatagggaaaaccagacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagaaggttttggaagtggacaatctcccccatatgatcacctttttgagttggcactgccaaaaactgcttaccattttgtcagcaagaagactgaagagctatttaaaaaagtgaaaggaaatatagaggaagattatatgccctctacttccccagtggaggtactggataggctgatacagcagggagcagatgcacat
-Burramyidae_Cercartetus_nanus_northern        ---ncaaaggagctttctgagatcacnacagcagatactgagcctgtggtgccccgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccatttaacatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagaacggcctggtgggtgtgccagtgaaagtcctgctggtaacagggaaaaccagacttcattggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagcggacaatctcccccatatgaccacctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagagctgttaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttccccagtggaggtactggataggctgatacaacagggagcagatgcacan
-Phalangeridae_Phalanger_carmelitae            atatcaaaggagctttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccgtgttctcagagaaagtcccattcggcatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggcccggtgggtgtgccagtgaaagccctgccggtaacagggaaaaccagacttctttggagacaaacatcttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacaatctcccccatatgatcacctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagactgaagagctattaaaaaaggtgaaaggaaacacagaggaagattatatgccctctacttctccagtggaggtactggataggctgatacaacagggagcagatgcacat
-Peramelidae_Peroryctes_raffrayana             ntatcaaaggagctttctgaaatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatct---aacactcaaggtcccagtgtgagcactgaacctctaacttcttctctggacaaacttgggcctgacacaccaaagcaagcctttacacctatagatcgaccctgtgggtgtgccaatgaaagccctgctggtaacagggaaaaccagacttcattggaaacaaacatcttcacacccagccctaaaattccatctcagagaaaagtaggttttggaagtggacaacctcccccctatgatcacctttttgagatggcattgccaaagactgcttaccattttgttagcaagacgactgaagagctcttaaagaaagtgaaaggaaatatagaggaagattatatgccatccacttccccagtggaggtactggataggctnatacaacagggagcanatgnncan
-Pseudochiridae_Pseodochirops_corinnae         ------------------------------------------nntgtggtgcctcgaggaggatttgactcncctttctatcgagatagtctcncntgttctcagagnaagtnccattnnacatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctctggacaagcttggncctgacacaccaaagcaagcctttacanccatagatcggccgggtgggtgtgccagtgaaagccctgctagtaacagggaaaaccagacttcattggagacaaacatcttcacacntagcnnnaaaattccatctcagagaaaagaaggttttggaagtggacagtctcncccatatgatcanctttttgagatggcactgccaaagactgnt------------------------------------------------------------------------------------------------------------------------------------
-Dasyuridae_Dasyurus_geffroii                  atatcaaaggaactttctgagatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactcgcctttctatcgagacagtctcccatgttctcagaggaagtcccattcaacatcttctaacactcaaggtcctagtgtgagcactgaacttctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccctgtgggtgtgacaatgaaagccctgctggtaacagggaaagccagacttcattggagacaaacatcttaacacctagccctaaaattccatctcag---aaagtaggttttggaagtggacagcctcccccatatgatcatctttttgagatggcactgccaaagactgcttaccattttgtcagcaagaagacagaagagctattaaagaaagtaaaaggaaatacagaggaagattatatgccctccacttccccagtggaggtgctggataggctgattcaacagggagcagatgcacat
-Peramelidae_Perameles_gunnii                  ---ncaaaagagctttctgaaatcactacagcagatactgagcctgtggtgcctcgaggaggatttgactctcctttctatcgagacagtctcccatgttctcagagaaagtcccattcaacatct---aacactcaaggtcccagtgtgaccactgaacctctaacttcttctctggacaaacttgggcctgacacaccaaagcaagcctttacacctatagatcgaccctgtgggtgtgccaatgaaagccctgctggtaacagggaaaaccagacttcattggaaacaaacatcttcacacccagccctaaaattccatctcagagaaaagtaggttttggaagtggacaacctcccccctatgatcacctttttgagatggcattgccaaagactgcttaccattttgttagcaaaaagactgaagagctcttaaagaaagtgaaaggaaatatagaggaagattatatgccatccacttccccagtggaggtactggataggctaatacaacagggagcagatgtgcat
-Phascolarctidae_Phascolarctos_cinereus        ntatcaaaggagctttctgagatcactacttcagatgctgagcctgtggtgcctcgaggaggatttgactcccctttctatcgagacagtctcccatgttctcagagaaagtcccatttaacatcttctaacactcaaggtcccagtgtgagcactgaacctctaacttcctctctggacaagcttgggcctgacacaccaaagcaagcctttacacccatagatcggccctgtgggtgtgccagtgaaagccctgctggtaacagggaaaaccagacttcactggagacaaacattttcacacctagccctaaaattccatctcagagaaaagtaggttttggaagtggacaatctcccccgtacgatcacctttttgagatggcactgccaaagactgcttatcattttgtcagcaagaagactgaagagctgttaaaaaaagtaaaaggaaacacagaggaagattatatgccttccacttccccaatggaggtactggataggctgatacagcagggagcagatgcacat
+Peramelidae_Isoodon_obesulus                  ntatcaaaag agctttctga aatcactaca gcagatactg agcctgtggt gcctcgagga
+Burramyidae_Burramys_parvus                   ---------- --------ga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Thylacomyidae_Macrotis_lagotis                ---------g agctttctga gatcactaca gcagatactg agcctgtggt gcctagagga
+Notoryctidae_Notoryctes_typhlops              atatcaaagg agctttctga gatcactaca gcagatactg aacctgttgt gcctcgagga
+Vombatidae_Lasiorhinus_latifrons              ntatcaaagg agctttctga gatcactaca gcagatgctg agcctgtggt gcctcgagga
+Potoroidae_Bettongia_penicillata              atatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Potoroidae_Bettongia_lesueur                  atatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Dasyuridae_Dasyurus_maculatus                 atatcaaagg aactttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Phalangeridae_Trichosurus_vulpecula           ntancaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Phalangeridae_Spilocuscus_maculatus           ntatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Potoroidae_Aepyprymnus_rufescens              ntatcaaagg agctttctga gatcactaca gcagataccg agcctgtggt gcctcgagga
+Pseudochiridae_Pseudocheirus_peregrinus_north atatcgaagg aactttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Peramelidae_Perameles_nasuta                  ntatcaaaag agctttctga aatcactaca gcagatactg agcctgtggt gcctcgagga
+Myrmecobiidae_Myrmecobius_fasciatus           atatcaaagg agctgtctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Phalangeridae_Strigocuscus_pelengensis        ntatcaaagg agctttctgn gannnntaca gcagatactg agcctgtggt gcctcgagga
+Dasyuridae_Phascogale_tapoatafa               atatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Vombatidae_Vombatus_ursinus                   atatcaaagg agctttctga gatcaccaca gcagatgctg agcctgtggt gcctcgagga
+Dasyuridae_Sminthopsis_macroura               atatcaaagg agctttctga gatcactaca acagatactg agcctgtggt gcctcgagga
+Phalangeridae_Phalanger_orientalis            atatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Acrobatidae_Acrobates_pygmaeus                atatcaaagg agctttctga gatcactaca gcagatgctg agcccgtggt gcctcgagga
+Potoroidae_Potorous_tridactylus_north         ntatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Dasyuridae_Phascogale_calura                  ntatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Dasyuridae_Sarcophilus_harrisii               atatcaaagg aactttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Dasyuridae_Planigale_tenuirostris             ---------g agctttctga gancactaca gcagatactg agcctgtggt gcctcgagga
+Peramelidae_Echymipera_kalubu                 ntatcaaagg agctttctga aatcactaca gcagatactg agcctgtggt gcctcgagga
+Macropodidae_Dorcopsulus_vanheurni            atatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Pseudochiridae_Pseudochirulus_forbesi         anatcaaagg aactttctga gatcactaca gcagatgctg agcctgtggt gcctcgagga
+Didelphidae_Didelphis_virginiana              ---ncaaang aactttctga gatcactaca gcagacactg agcctatggt acctcgagga
+Marmosidae_Monodelphis_domestica              ntatcaaagg aactttctga gatcactaca gcagacactg agcctgtggt acctcgagga
+Dasyuridae_Antechinus_stuartii                atatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Macropodidae_Onychogalea_fraenata             ntatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Hypsiprymnodontidae_Hypsiprymnodon_moschatus  atatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Microbiotheriidae_Dromiciops_gliroides        ---nnanagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgaggt
+Pseudochiridae_Petauroides_volans             ---------n aactttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Macropodidae_Wallabia_bicolor                 atatcaaagg agctttctga aatcactaca gcagatactg agcctgtggt gcctcgagga
+Pseudochiridae_Pseudocheirus_occidentalis     ntatcgaagg aactttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Tarsipedidae_Tarsipes_rostratus               nnatcaaagg aactttctga gatcactaca gcagatactg agccagtagt gcctcgagga
+Acrobatidae_Distoechurus_pennatus             atatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Burramyidae_Cercartetus_nanus_northern        ---ncaaagg agctttctga gatcacnaca gcagatactg agcctgtggt gccccgagga
+Phalangeridae_Phalanger_carmelitae            atatcaaagg agctttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Peramelidae_Peroryctes_raffrayana             ntatcaaagg agctttctga aatcactaca gcagatactg agcctgtggt gcctcgagga
+Pseudochiridae_Pseodochirops_corinnae         ---------- ---------- ---------- ---------- --nntgtggt gcctcgagga
+Dasyuridae_Dasyurus_geffroii                  atatcaaagg aactttctga gatcactaca gcagatactg agcctgtggt gcctcgagga
+Peramelidae_Perameles_gunnii                  ---ncaaaag agctttctga aatcactaca gcagatactg agcctgtggt gcctcgagga
+Phascolarctidae_Phascolarctos_cinereus        ntatcaaagg agctttctga gatcactact tcagatgctg agcctgtggt gcctcgagga
+
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctctcatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatctt ctcagaggaa gtccctttca
+          ggatttgact cccctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact cgcctttcta tcgagacagt ctcccatgtt ctcagaggaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccgtgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagatagc ctcccatgtt ctcagagaaa gtcccattta
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact cgcctttcta tcgagacagt ctcccatgtt ctcagaggaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccgtgtt ctcagagaaa gtcccattca
+          ggatttgact cgccttttta tcgagatagt ctcccatgtt ctcagaggaa atcccattca
+          ggatttgact cccctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattcg
+          ggatttgact cacctttcta tcgagacagt ctctcatgtt ctcagaggaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccgtgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcaagacagt cccccatgtt ctcagagaaa ttcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact cgcctttcta tcgagatagt ctcccatgtt ctcagaggaa atcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagaggaa gtcccattca
+          ggatttgact cgcctttcta tcgagacagt ttcccatgtt ctcagaggaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccgtgtt ctcaaagaaa gtcccattca
+          ggatttgact cgcctttcta tcgagatagt ctcccatgtt ctcagagaaa gtcccatgta
+          ggatttgatt ctcctttcta tcaagacagt ctcccatgtt ctcagaggaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagaggaa gtcccattca
+          ggatttgact cgcctttcta tcgagatagt ctcccatgtt ctcagaagaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcaaagaaa gtcccattca
+          gggtttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tagagacagt ctctcatgtt ctcagaggaa gtcccaatca
+          ggatttgact ctcctttcta tcgagatagt ctcccatgtt ctcagagaaa gtcccattta
+          ggatttgact ctcctttcta tcgagacagt ctcccgtgtt ctcaaagaaa gtcccattca
+          ggatttgact cccctttcta tcgagatagc ctcccatgtt ctcagagaaa gtcccattta
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattta
+          ggatttgact ctcctttcta tcgagacagt ctcccgtgtt ctcagagaaa gtcccattcg
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact cncctttcta tcgagatagt ctcncntgtt ctcagagnaa gtnccattnn
+          ggatttgact cgcctttcta tcgagacagt ctcccatgtt ctcagaggaa gtcccattca
+          ggatttgact ctcctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattca
+          ggatttgact cccctttcta tcgagacagt ctcccatgtt ctcagagaaa gtcccattta
+
+          acatct---a acactcaagg tcccagtgtg accactgaac ctctaacttc ttctctggac
+          atatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctctggac
+          gcatct---a acactcaagg tcccagtgtg agcactgaac ctctaacttc ttctctggac
+          acatcttcta acactcaagg tcccagtgtg agcgctgaac ctctaacttc ctctctggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctgtggac
+          acatcttcta acactcaagg tcccagtgtg agcaccgaac ctttaacttc ctccctggac
+          acatcttcta acactcaagg tcccagtgtg agcaccgaac ctttaacttc ctccctggac
+          acatcttcta acactcaagg tcctagtgtg agcactgaac ttctaacttc ctctctggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctctggac
+          gcatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctctggac
+          gcatcttcta acactcaagg ttccagtgtg agcaccgaac ctttaacttc ctccctggac
+          acatcttcta acactcaagg tcccagtgta agcactgaac ctctaacttc ctctctggac
+          acatct---a acactcaagg tcccagtgtg accactgaat ctctaacttc ttctctggac
+          acatcttcta acactcaagg gcctagtgtg aacactgaac ttctaacttc ctctctggac
+          gcatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctctggac
+          acatcttcta acactcaagg tcctagtgtg agcactgaac ttctaacttc ctctctggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctgtggac
+          acatcttcta acactcaagg tcctagtgtt agcactgaac ttctaacttc ctctctggac
+          gcatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctctggac
+          acatcttgta acactcaagg tcccagtgta agcactgaac ctctaacttc ctctctggac
+          acatcttcta acacccaagg tcccagtgtg agcaccgaac ctttaacttc ctccctggac
+          acatcttcta acactcaagg tcctagtgtg agcactgaac ttctaacttc ctctctggac
+          acatcttcta acactcaagg tcctagtgtg agcactgaac ttctaacttc ctctctggac
+          acatcttcta acactcaagg tcctagtgtg agcactgaac ttctaacttc ctctctggac
+          acntct---a acgctcaagg tcccagtgtg agcactgaac ctctaacttc ttctctggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctttaacttc ctccctggac
+          acatcttcta acactcaagg tcccagtgta agcactgaac ctctaacttc ctctctggac
+          acatcttcta acactcaagg gcccagtgtg agtgct---- --------tc ctctttggac
+          acatcttcta acactcaagg gcccagtgtg agtgct---- --------tc ctctttggac
+          acatcttcta acactcaagg tcctagtgtg agcactgaac ttctaacttc ctctctggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctttaacttc ctccctggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctttaacttc ctctctggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctccaacttc ctctctggac
+          acatcttcta acactcaagg tctcagtgtg agcactgaac ctctaacttc ctctctggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctttaacttc ctccctggac
+          acatcttcta acactcaagg tcccagtgta agcactgaac ctctaacttc ctctctggac
+          gtatcttcta acactcaagg tcccagtgtg aacactgaac ctctaacttc gtctctggac
+          acatcctcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctttggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctctggac
+          gcatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctctggac
+          acatct---a acactcaagg tcccagtgtg agcactgaac ctctaacttc ttctctggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctctggac
+          acatcttcta acactcaagg tcctagtgtg agcactgaac ttctaacttc ctctctggac
+          acatct---a acactcaagg tcccagtgtg accactgaac ctctaacttc ttctctggac
+          acatcttcta acactcaagg tcccagtgtg agcactgaac ctctaacttc ctctctggac
+
+          aaacttgggc ctgacacacc aaagcaagcc tttacaccta tagatcgacc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aaacttgggc ctgacacacc aaagcaagcc tttacaccta tagatcgacc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcgacc ctgggggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ctgtgggtgt
+          aagcttgggc ctgacacatc caagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ctgacacatc caagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc tggtgggtat
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ctgacacacc caagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aaacttgggc ctgacacacc aaagcaagcc tttacaccta tagatcgacc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ctgtaggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccta tagatcggcc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcctgggc ctgacacacc aaagcaagcc tttacaccca tagattggcc aagtgggtgt
+          aagcttgggc ctgacgcacc caagcaagcc tttacaccca ttgatcggcc cggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ttgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ctgtgggtgt
+          aaacttgggc ctgacacacc aaagcaagcc tttacaccta tagatcgacc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagtc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttactccca tagatcggcc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttactccca tagatcggcc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagaacggcc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ccaacacgcc aaagcaagcc tttacaccca tagatcggcc tggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcgccc cggtgggtgt
+          aagcttggac ctgacacacc aaagcaagcc tttacaccca tcgatcggcc tggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagaacggcc tggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc cggtgggtgt
+          aaacttgggc ctgacacacc aaagcaagcc tttacaccta tagatcgacc ctgtgggtgt
+          aagcttggnc ctgacacacc aaagcaagcc tttacancca tagatcggcc gggtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ctgtgggtgt
+          aaacttgggc ctgacacacc aaagcaagcc tttacaccta tagatcgacc ctgtgggtgt
+          aagcttgggc ctgacacacc aaagcaagcc tttacaccca tagatcggcc ctgtgggtgt
+
+          gccaatgaaa gccctgctgg taacagggaa aaccagactt cattggaaac aaacatcttc
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cattggagac aaacatcttc
+          gccaacgaaa gccctgctag taacagggaa aaccagacgt cattggagac aaacatcttc
+          gccaatgaaa gccctgctgg taacagggaa aaccagactt cactggagac aaacatcttc
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cattggagac aaacatcttc
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cattggagac aaacatcttt
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cattggagac aaacatcttt
+          gacaatgaaa gccctgctgg taacagggaa agccagactt cattggagac aaacatctta
+          gctagtgaaa gccctgctgg taacagggaa aaccagactt ctttggagac aaacatcttc
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt ctttggagac aaacatcttc
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cactggagac aaacatcttt
+          gccagtgaaa gccctgctgg taacagggaa aatcagactt cattggaaac aaacatcttc
+          gccaatgaaa gccctgctgg taacagggaa aaccagactt cattggaaac aaacatcttc
+          ggcaatgaaa gccctgctgg taacagggaa aaccagactt cattggagac aaacatcttg
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt ctttggagac aaacatcttc
+          gacaatgaaa gccctgctgg taacagggaa agccagactt cattagagac aaacatctta
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cattggagac aaacatcttc
+          gacaatgaaa gccctgctgg taacagggaa agccagactt cattggagac aaacatcttt
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt ctttggagac aaacatcttc
+          gccagtgaaa gccctgccag taacagggaa aaccagactt cattggagac aaacattttc
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt ctttggagac aaacatcttt
+          gacagtgaaa gccctgctgg taacagggaa agccagactt cattggagac aaacatctta
+          gacaatgaaa gccctgctgg taacagggaa agccagactt cattggagac aaacatctta
+          gacaatgaaa gccctgctgg taacagggaa agccagactt cattggagac aaacatcttt
+          gccaatgaaa gccctgctgg taacagggaa aaccagactt cattggaaac aaacatcttt
+          gccagtgaaa tccctgctgg taacagggaa aaccagactt cattggagac aaacatcttc
+          gccagtgaaa gccctgctgg taacagggaa aatcaaactt cattggagac aaacatcttc
+          gccgatgaaa gccctgctgg taacagggaa aaccagactt cattggacac aaacatcctc
+          gccgatgaaa gccctgctgg taacagggaa aaccagactt cattggacac aaacatcctc
+          gacaatgaaa gccctgctgg taacagggaa agccagactt cattagagac aaacatctta
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cattggagac aaacatcttc
+          gccagtgaaa gccctgccgg taacagggaa aaccagactt tgttggagac aaacatcttc
+          gccaatgaaa gccctgctgg taacagggaa aaccggactt cactggagac aaacatcttc
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cattggagac aaacatcttc
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cattggagac aaacatcttc
+          gccggtgaaa gccctgctgg taacagggaa aatcagactt cattggagac aaacatcttc
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cattggacac aaacattttc
+          accaatgaaa gccctgccgg taatagggaa aaccagactt cattggagac aaacatcttc
+          gccagtgaaa gtcctgctgg taacagggaa aaccagactt cattggagac aaacatcttc
+          gccagtgaaa gccctgccgg taacagggaa aaccagactt ctttggagac aaacatcttc
+          gccaatgaaa gccctgctgg taacagggaa aaccagactt cattggaaac aaacatcttc
+          gccagtgaaa gccctgctag taacagggaa aaccagactt cattggagac aaacatcttc
+          gacaatgaaa gccctgctgg taacagggaa agccagactt cattggagac aaacatctta
+          gccaatgaaa gccctgctgg taacagggaa aaccagactt cattggaaac aaacatcttc
+          gccagtgaaa gccctgctgg taacagggaa aaccagactt cactggagac aaacattttc
+
+          acacccagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaacctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagcgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acagcctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtagatt ttggaagtgg acagcctcca
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagcgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaatctccc
+          acacctagcc ctaaaattcc atctcag--- aaagtaggtt ttggaagtgg acagcctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acgatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtga acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagaaggtt ttggaagtgg acaatctccc
+          acacccagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaacctccc
+          acgcctagcc ctaaaattcc t---cagaga aaagtaggtt ttggaagtgg acagcctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaatctccc
+          acacctagcc ctaaaattcc atctcag--- aaagtaggtt ttggaagtgg acagcctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagcgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtagatt ttggaagtgg acagcctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagaaggtt ttggaagtgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtagttt ttggaagtgg acaatctccc
+          acacccagcc ctaaaattcc atctcag--- aaagtaggtt ttggaagtgg acagcctccc
+          acgcctagcc ctaaaattcc atctcag--- aaagtaggtt ttggaagtgg acaacctccc
+          acgcctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acagcctccc
+          acacccagcc ctaaaattcc atctcaaaga aaagtaggtt ttggaagtgg acaanntccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg gcaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagaaggtt ttggaagtgg acaatctccc
+          acacctagcc ctaaaattcc atctcaaaga aaagtaggat ttggaagtgg gcaaccttcc
+          acacctagcc ctaaaattcc gtctcagaga aaagtagggt ttggaagtgg acagccttcc
+          acgcctagcc ctaaaattcc atctcag--- aaagtaggtt ttggacgtgg acagcctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaatctccc
+          acacctagcc cgaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaatctccc
+          acacctagtc ctaaaatacc atctcagaga aaagtaggtt ttggaagtgg acaacctccc
+          acacctagcc ctaaaattcc atctcagaga aaagaaggtt ttagaagtgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagaaggtt ttggaagtgg acaatctccc
+          acacccagcc ctaaaattcc atctcagaga aaagaaggtt ttggaaatga acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagaaggtt ttggaagtgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagcgg acaatctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaatctccc
+          acacccagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaacctccc
+          acacntagcn nnaaaattcc atctcagaga aaagaaggtt ttggaagtgg acagtctcnc
+          acacctagcc ctaaaattcc atctcag--- aaagtaggtt ttggaagtgg acagcctccc
+          acacccagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaacctccc
+          acacctagcc ctaaaattcc atctcagaga aaagtaggtt ttggaagtgg acaatctccc
+
+          ccctatgatc acctttttga gatggcattg ccaaagactg cttaccattt tgttagcaag
+          ccatatgatc atctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccctatgatc acctttttga gatggcattg ccaaagactg cttaccattt tgtcagcaaa
+          ccatatgatt acctttttga gatggctctg ccaaagactg cttaccattt tgtcagcagg
+          ccgtatgatc acctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga gatggcactg cccaagactg cttaccattt tgttagcaag
+          ccatatgatc acctttttga gatggcactg cccaagactg cttaccattt tgttagcaag
+          ccatatgatc atctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga gatggcactg cccaagactg cttaccattt tgttagcaag
+          ccatatgatc acctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccctatgatc acctttttga gatggcattg ccaaagactg cttaccattt tgttagcaaa
+          ccatatgatc atctttttga gatggcactg cccaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatacgatc atctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccgtatgatc acctttttga ggtggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc atctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc accttttcga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga gttggcgctg ccaaaaactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga gatggcactg cctaagactg cttaccattt tgttagcaag
+          ccatatgatc atctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc atctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc atctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccctatgatc acctttttga gatggcattg ccaaagactg cttaccattt tgttagcaag
+          ccatatgatc acctttttga gatggcactg ccaaagactg cttaccattt tgttagcaag
+          ccatatgatc acctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctctttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctctttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc atctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga gatggcactg ccaaagactg cttaccattt tgttagcaag
+          ccatatgatc acctttttga gatggcgctg ccaaagactg cttaccattt tgttagcaag
+          ccgtacgatc acctttttga gatggcactg ccaaagactg cttaccattt tgtcagtaag
+          ccatatgatc acctttttga aatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga aatggcactg ccaaagactg cttaccattt tgttagcaag
+          ccatatgatc acctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga aatggcactg ccaaagactg cttaccattt tgttagcaag
+          ccatatgatc acctttttga gttggcactg ccaaaaactg cttaccattt tgtcagcaag
+          ccatatgacc acctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccatatgatc acctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccctatgatc acctttttga gatggcattg ccaaagactg cttaccattt tgttagcaag
+          ccatatgatc anctttttga gatggcactg ccaaagactg nt-------- ----------
+          ccatatgatc atctttttga gatggcactg ccaaagactg cttaccattt tgtcagcaag
+          ccctatgatc acctttttga gatggcattg ccaaagactg cttaccattt tgttagcaaa
+          ccgtacgatc acctttttga gatggcactg ccaaagactg cttatcattt tgtcagcaag
+
+          aagactgaag agctcttaaa gaaagtgaaa ggaaatatag aggaagatta tatgccatcc
+          aagactgaag agctgttaaa aaaggtgaaa ggaaacacag aggaagatta tatgccttct
+          aagactgaag agctcttaaa gaaagtgaaa ggaaatatag aggaagatta tatgccgtcc
+          aagactgaag agctattaaa taaagtgaaa gcaaacacag aggaagatta tatgccctcc
+          aagactgaag agctgttaaa aaaagtaaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagacagaag agctattaaa gaaagtaaaa ggaaatacag aggaagatta tatgccctcc
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag aactattaaa aaaagtaaaa ggaaatacag aggaagatta tatgccctct
+          aagactgaag agctcttaaa gaaagtgaaa ggaaatatag aggaagatta tatgccatcc
+          aagtctgaag aactattaaa gaaagtaaaa ggaaatacag aggaagatta tatgccctcc
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagacagaag agctattaaa gaaaataaaa ggaaatacag aggaagatta tatgccctcc
+          aagactgaag agctgttaaa aaaagtaaaa ggaaacacag aggaagatta tatgccctcc
+          aagacagaag agctattaaa gaaaataaaa ggaaatacag aggaagatta tatgccctcc
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag agctattnaa aaaagtgaaa ggaaacatag aggaagatta tatgccctct
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatcccctct
+          aagacagaag agctattaaa gaaagtaaaa ggaaatacag aggaagatta tatgccctcc
+          aagacagaag agctattaaa gaaagtaaaa ggaaatacag aggaagatta tatgccctcc
+          aagacagaag agctattaaa gaaagtaaaa ggaaatacag aggaagatta tatgccctcc
+          aagactgaag agctcttaaa gaaagtgaaa ggaaatatag aggaagatta tatgccatcc
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag aactattaaa aaaagtaaaa ggaaacacag aggaagatta tatgccctct
+          aaaactgaag agctattaaa gaaagtaaaa ggaaacacag aggaagatta tatgccctct
+          aaaactgaag agcttttaaa gaaaataaaa ggaaacacag aggaagatta tatgccttct
+          aagacagaag agctattaaa gaaagtaaaa ggaaatacag aggaagatta tatgccctcc
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tgtgccctca
+          aagactgaag agctgttaaa gaaagtgaaa ggaaacacag aggaagatta tatgccctcc
+          aagactgaag aactattaaa aaaagtaaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag anctattaaa aaaagtnaaa ggaaatacag aggaagatta tatgccctct
+          aagactgaag aactattaaa aaaagtgaaa ggaagcacag aggaagatta tatgccctct
+          aagactgaag agctatttaa aaaagtgaaa ggaaatatag aggaagatta tatgccctct
+          aagactgaag agctgttaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          aagactgaag agctattaaa aaaggtgaaa ggaaacacag aggaagatta tatgccctct
+          acgactgaag agctcttaaa gaaagtgaaa ggaaatatag aggaagatta tatgccatcc
+          ---------- ---------- ---------- ---------- ---------- ----------
+          aagacagaag agctattaaa gaaagtaaaa ggaaatacag aggaagatta tatgccctcc
+          aagactgaag agctcttaaa gaaagtgaaa ggaaatatag aggaagatta tatgccatcc
+          aagactgaag agctgttaaa aaaagtaaaa ggaaacacag aggaagatta tatgccttcc
+
+          acttccccag tggaggtact ggataggcta atacaacagg gagcagatgt gcat
+          acttccccag tggaggtgct ggataggctg atacaacagg gagcagatgc acat
+          acttccccag tggaggtact ggataggcta atacnacagg gagcagatgt gcat
+          acttccccag tggaggtact ggataggctg ata------- ---------- ----
+          acttccccag tggaggtact ggataggctg atacaacagg gagcagatgc acat
+          acttccccag tggaggtact ggataggcta atacaacagg gagcagatgc acat
+          acttccccag tggaggtact ggataggcta atacaacagg gagcagatgc acat
+          acttccccag tggaggtgct ggataggctg attcaacagg gagcagatgc acat
+          acttctccag tggaggtact ggataggctg atacaacagg gagcagatgc acat
+          acttctccag tggaggtact ggataggctg atacaacagg gagcagatgc acat
+          acttccccag tggaggtact ggataggcta atacaacagg gagcagatgc acat
+          acttccccag tggaagtact ggataggctg atacaacagg gagcagatgn a---
+          acttccccag tggaggtact ggataggcta atacaacagg gagcagatgt gcat
+          acttccccag tggaagtact ggataggctg attcagcagg gagcagatgc acat
+          acttctccag tggaggtact ggataggctg atacaacagg gagcagatgn n---
+          acttccccag tggaggtact ggataggttg attcaacagg gagcagatgc acan
+          acttccccag tggaggtact ggataggctg atacaacagg gagcagatgc acat
+          acttccccag tggaggtact agataggctg attcaacagg gagcagatgc acat
+          acttctccag tggaggtact ggataggctg atacaacagg gagcggatgc acat
+          acttccccag tggag----- ---------- ---------- ---------- ----
+          acttccccag tggaggtact ggataggcta atacaacagg gagcagatgc acat
+          acttccccag tggaggtact ggataggttg attcaacagg gagcagatgc acat
+          acttccccag tggaggtgct ggataggctg attcaacagg gagcagatgc acat
+          acttccncag tggaggnact ggataggcta attcaacagg nngcn----- ----
+          acttccccag tggaggtact ggataggcta atacaacagg gagcagatgt acat
+          acttccccag tggaggtact ggataggcta atacaacagg gagcagatgc acat
+          acttcccctg tggaagtact ggataggctg atacaacagg gagcagatgc acat
+          acttccccag tggaagtact ggataggctg atacaacagg gagcagatgc acat
+          acttccccag tggaagtact ggataggctg atacagcagg gagcagatgc acat
+          acttccccag tggaggtact ggataggttg attcaacagg gagcagatgc acat
+          acttccccag tggaggtact ggataggcta atacagcagg gagcagatgc acat
+          acttccccaa tggaggtact ggatcggctc atacaacagg gagcagatgc acat
+          acctccccag tggaagtact agatagactg atn------- ---------- ----
+          acttccccag tggaagtact ggataggctg atacaacagg gagcagatgc a---
+          acttccccag tggaggtact agataggcta atacaacagg gagcagatgc acat
+          acttccccag tggaagtact ggataggctg atacaacagg gagcagatgc acat
+          acttcccctg tagaggtact ggataggctg atacaacagg gagcagatgc acat
+          acttccccag tggaggtact ggataggctg atacagcagg gagcagatgc acat
+          acttccccag tggaggtact ggataggctg atacaacagg gagcagatgc acan
+          acttctccag tggaggtact ggataggctg atacaacagg gagcagatgc acat
+          acttccccag tggaggtact ggataggctn atacaacagg gagcanatgn ncan
+          ---------- ---------- ---------- ---------- ---------- ----
+          acttccccag tggaggtgct ggataggctg attcaacagg gagcagatgc acat
+          acttccccag tggaggtact ggataggcta atacaacagg gagcagatgt gcat
+          acttccccaa tggaggtact ggataggctg atacagcagg gagcagatgc acat

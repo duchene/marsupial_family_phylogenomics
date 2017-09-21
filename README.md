@@ -1,9 +1,7 @@
 This repository contains the workflows, data, and code that accompany the article 'Resolving marsupial phylogenomics by evaluating congruence across loci'
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-7 April 2017
-
-This repository is temporary, and will be replaced with a permanent repository in datadryad.org
+19 September 2017
 
 Bioinformatics
 --------------
